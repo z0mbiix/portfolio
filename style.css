@@ -28,13 +28,20 @@ Nav {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-a Nav, button {
+.button {
     background-color: #bb9f6e;
     height: 30px;
     border-radius: 20px;
     border-style: none;
     font-family: MV boli;
     color:#e5d0b4;
+    
+}
+
+.Subjects:hover {
+    background-color: #9b7f50;
+    color:#e4c49b;
+
 }
 
 div.footer {
