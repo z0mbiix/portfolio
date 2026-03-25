@@ -23,22 +23,23 @@ header {
 }
 Nav {
     background-color: #99704f;
-    height: 40px;
+    height: 55px;
     align-content: center;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-button.Subjects {
+Nav a {
     background-color: #bb9f6e;
-    height: 30px;
+    padding: 2px 10px;
     border-radius: 20px;
     border-style: none;
     font-family: MV boli;
     color:#e5d0b4;
     font-size: 20px;
+    text-decoration: none;
 }
 
-button.Subjects:hover {
+Nav a:hover {
     background-color: #c0a575;
     color:#e4c49b;
     cursor: pointer;
@@ -53,18 +54,18 @@ div.footer {
     align-content: center;
 }
 
-button.Home {
+div.footer a {
     background-color: #bb9f6e;
-    height: auto;
-    width: 90px;
+    padding: 3px 15px;
     border-radius: 20px;
     border-style: none;
     font-family: MV boli;
     color:#e5d0b4;
-    font-size: 23px;
+    font-size: 25px;
+    text-decoration: none;
 }
 
-button.Home:hover {
+div.footer a:hover {
     background-color: #c0a575;
     color:#e4c49b;
     cursor: pointer;    
