@@ -28,20 +28,20 @@ Nav {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-.button {
+button.Subjects {
     background-color: #bb9f6e;
     height: 30px;
     border-radius: 20px;
     border-style: none;
     font-family: MV boli;
     color:#e5d0b4;
-    
+    font-size: 20px;
 }
 
-.Subjects:hover {
-    background-color: #9b7f50;
+button.Subjects:hover {
+    background-color: #c0a575;
     color:#e4c49b;
-
+    cursor: pointer;
 }
 
 div.footer {
@@ -53,11 +53,19 @@ div.footer {
     align-content: center;
 }
 
-a div.footer, button {
+button.Home {
     background-color: #bb9f6e;
-    height: 30px;
+    height: auto;
+    width: 90px;
     border-radius: 20px;
     border-style: none;
     font-family: MV boli;
     color:#e5d0b4;
+    font-size: 23px;
+}
+
+button.Home:hover {
+    background-color: #c0a575;
+    color:#e4c49b;
+    cursor: pointer;    
 }
