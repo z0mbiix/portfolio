@@ -4,5 +4,19 @@ table{
    font-family: MV Boli;
    border-collapse: collapse;
    width: 100%;
-   gap: ;
+   margin-top: 40px;
+   border-spacing: 0;
+}
+
+td, th {
+   border: 3px solid #4a311e;
+   text-align: left;
+   padding: 5px;
+}
+
+tr:nth-child(odd) {
+   background-color: rgba(187, 159, 110, 0.3);
+}
+tr:nth-child(even) {
+   background-color: rgba(187, 159, 110, 0.3);
 }
