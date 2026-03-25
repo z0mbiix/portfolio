@@ -1,3 +1,4 @@
+/*Body Style*/
 body {
     background-image: url("Pictures/Portfolio-BG.jpg"); 
     background-size: cover;
@@ -21,6 +22,7 @@ header {
     border-color: #4a311e;
     border-bottom-style: dashed;
 }
+
 Nav {
     background-color: #99704f;
     height: 55px;
@@ -28,6 +30,9 @@ Nav {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+/*Body Style*/
+
+/*Button Links*/
 Nav a {
     background-color: #bb9f6e;
     padding: 2px 10px;
@@ -70,3 +75,4 @@ div.footer a:hover {
     color:#e4c49b;
     cursor: pointer;    
 }
+/*Button Links*/
