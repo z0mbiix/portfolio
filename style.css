@@ -1,4 +1,4 @@
-/*Body Style*/
+/* Body Style */
 body {
     background-image: url("Pictures/Portfolio-BG.jpg"); 
     background-size: cover;
@@ -14,45 +14,48 @@ html, body {
 }
 
 header {
-    background-color: #775539;
+    background-color: #c06977;
     height: 50px;
     text-align: center;
     font-size: 25px;
-    color: #e5d0b4;
-    border-color: #4a311e;
+    color: #ffffff;
+    border-color: #d7919c;
     border-bottom-style: dashed;
 }
 
 Nav {
-    background-color: #99704f;
+    background-color: #c06977;
     height: 55px;
     align-content: center;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-/*Body Style*/
+/* Body Style *\
 
-/*Button Links*/
+/* Button Links */
 Nav a {
-    background-color: #bb9f6e;
+    background-color: #c06977;
     padding: 2px 10px;
     border-radius: 20px;
-    border-style: none;
     font-family: MV boli;
-    color:#e5d0b4;
+    color:#ffffff;
     font-size: 20px;
     text-decoration: none;
+    border-style: ridge;
+    border-color: #d7919c;
 }
 
 Nav a:hover {
-    background-color: #c0a575;
-    color:#e4c49b;
+    background-color: #b05665;
+    color:#d7919c;
     cursor: pointer;
+    border-style: ridge;
+    border-color:#d7919c;
 }
 
 div.footer {
     position: fixed;
-    background-color: #99704f;
+    background-color: #c06977;
     width: 100%;
     height: 75px;
     bottom: 0px;
@@ -60,19 +63,30 @@ div.footer {
 }
 
 div.footer a {
-    background-color: #bb9f6e;
+    background-color:#c06977;
     padding: 3px 15px;
     border-radius: 20px;
-    border-style: none;
-    font-family: MV boli;
-    color:#e5d0b4;
-    font-size: 25px;
+    color:#ffffff;
+    font-size: 20px;
     text-decoration: none;
+    border-style: ridge;
+    border-color: #d7919c;
 }
 
 div.footer a:hover {
-    background-color: #c0a575;
-    color:#e4c49b;
-    cursor: pointer;    
+    background-color: #b05665;
+    color:#d7919c;
+    cursor: pointer;
+    border-style: ridge;
+    border-color:#d7919c; 
 }
-/*Button Links*/
+/* Button Links *\
+
+/* 
+Colors
+
+#b4e179 (background)
+#54a135 (details)
+#c06977 (containers)
+#ffffff (text)
+*/
