@@ -13,46 +13,56 @@ html, body {
     margin: 0%;
 }
 
-header {
-    background-color: #216869;
-    height: 50px;
-    text-align: center;
-    font-size: 25px;
-    color: #DCE1DE;
-    border-color: #1F2421;
-    border-bottom-style: dashed;
+.header {
+    height: 1500px;
+    background-color: black;
+    overflow: hidden;
 }
 
-Nav {
-    background-color: #216869;
-    height: 55px;
-    align-content: center;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-/* Body Style *\
-
-/* Button Links */
-Nav a {
-    background-color: #49A078;
-    padding: 2px 10px;
-    border-radius: 20px;
-    font-family: MV boli;
-    color:#DCE1DE;
-    font-size: 20px;
-    text-decoration: none;
-    border-style: ridge;
-    border-color: #9CC5A1;
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  width: auto;
+  height:
+  
 }
 
-Nav a:hover {
-    background-color: #b05665;
-    color:#d7919c;
-    cursor: pointer;
-    border-style: ridge;
-    border-color:#d7919c;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
 div.footer {
     position: fixed;
     background-color: #216869;
