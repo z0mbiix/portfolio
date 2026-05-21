@@ -1,11 +1,12 @@
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav {
   position: relative;
+  font-size: 20px;
 }
 .topnav #myLinks {
   overflow: hidden;
   display: none;
-  background-color: #53896d;
+  background-color: #C9FBFF;
   margin-left: auto;
   width: fit-content;
   border-bottom-left-radius: 20px;
@@ -13,22 +14,23 @@
 
 /* Style navigation menu links */
 .topnav a {
-  color: rgb(255, 255, 255);
+  color: #153B50;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+  
 }
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #5bdcad;
+  background: #9593D9;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
 }
 .topnav #myLinks a:hover {
-  background-color: #9ce2cd;
+  background-color: #98cfda;
   color: black;
 }
 .myOpenAndHideBurgerMenu {
@@ -40,17 +42,19 @@
   cursor: pointer;
   background: none;
   border: none;
+  
 }
 .bar {
   height: 3px;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #153B50;
   transition: all 0.3s ease;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #5bdcad;
+  background-color: #9593D9;
+  
 }
 
 .myOpenAndHideBurgerMenu.open .bar:nth-child(1) {
@@ -65,3 +69,13 @@
 .myOpenAndHideBurgerMenu.open .bar:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
+
+/* 
+Colors
+
+#E5BEED (background)
+#84BC9C (details)
+#7C90DB (Buttons) 
+#9593D9(containers)
+#FFFFFF (text)
+*/
