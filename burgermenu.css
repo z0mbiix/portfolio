@@ -1,0 +1,67 @@
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav {
+  position: relative;
+}
+.topnav #myLinks {
+  overflow: hidden;
+  display: none;
+  background-color: #53896d;
+  margin-left: auto;
+  width: fit-content;
+  border-bottom-left-radius: 20px;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #5bdcad;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav #myLinks a:hover {
+  background-color: #9ce2cd;
+  color: black;
+}
+.myOpenAndHideBurgerMenu {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #5bdcad;
+}
+
+.myOpenAndHideBurgerMenu.open .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.myOpenAndHideBurgerMenu.open .bar:nth-child(2) {
+  opacity: 0;
+  transform: translateX(20px); /* Optional slide-out effect */
+}
+
+.myOpenAndHideBurgerMenu.open .bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
