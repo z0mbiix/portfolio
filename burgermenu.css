@@ -54,7 +54,9 @@
 /* Style the active link (or home/logo) */
 .active {
   background-color: #9593D9;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 15px;
+  height: 25px ;
 }
 
 .myOpenAndHideBurgerMenu.open .bar:nth-child(1) {
