@@ -10,6 +10,8 @@
   margin-left: auto;
   width: fit-content;
   border-bottom-left-radius: 20px;
+  z-index: 999;
+  margin-left: auto;
 }
 
 /* Style navigation menu links */
@@ -42,7 +44,6 @@
   cursor: pointer;
   background: none;
   border: none;
-  
 }
 .bar {
   height: 3px;
