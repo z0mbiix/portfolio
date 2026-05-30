@@ -7,6 +7,10 @@ function myOpenAndHideBurgerMenu() {
   }
 
 const menu = document.querySelector('.myOpenAndHideBurgerMenu');
-menu.addEventListener('click', () => {
-  menu.classList.toggle('open');
+const triggers = document.querySelectorAll('.icon');
+
+triggers.forEach(trigger => {
+  trigger.addEventListener('click', () => {
+    menu.classList.toggle('open');
+  });
 });

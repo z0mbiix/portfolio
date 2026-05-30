@@ -2,18 +2,19 @@
 .topnav {
   position: relative;
   font-size: 20px;
-  display:inline  
+  overflow: hidden; 
 }
 .topnav #myLinks {
   overflow: hidden;
-  display: block;
+  display: none;
   background-color: #C9FBFF;
   margin-left: auto;
   width: fit-content;
   border-bottom-left-radius: 20px;
   z-index: 999;
-  position: absolute;
-  
+  margin-left: auto;
+  position: fixed;
+  right: 0;
 }
 
 /* Style navigation menu links */
