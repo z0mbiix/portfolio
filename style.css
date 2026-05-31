@@ -72,7 +72,6 @@ max-width: 85%;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   color: #153B50;
-  /* background-color: #9593D9; */
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
@@ -141,6 +140,36 @@ max-width: 85%;
 }
 iframe {
   display: flex;
+} 
+
+/* styling for matte */
+
+.mathcontainer {
+  color: #153B50;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  max-width: 600px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  display: flex;
+}
+
+/* styling for Naturfag */
+
+.sciencecontainer {
+  color: #153B50;
+  background-color: #9593D9;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  max-width: 600px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 /* 
 Colors

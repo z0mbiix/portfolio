@@ -14,5 +14,30 @@ triggers.forEach(trigger => {
     menu.classList.toggle('open');
   });
 });
-const displayElement = document.getElementById("email.address")
-content.displayElement.textContent = "leah.skogheim@gmail.com"
+
+const xValues = ["1PY Kap 2", "Kap. 3 statistikk", "Kap.4+5 formler/geometri", "Kap 6. økonomi", "Halvårsvurdering"];
+const yValues = [4.5, 5, 3, 2.7, 5];
+const barColors = ["white", "purple","white","purple","white"];
+
+const ctx = document.getElementById('myChart');
+
+new Chart(ctx, {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    plugins: {
+      legend: {display: false},
+      title: {
+        display: true,
+        text: "Mine Matteprøve Resultater",
+        font: {size: 16}
+      }
+    }
+  }
+});
