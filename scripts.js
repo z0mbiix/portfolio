@@ -14,3 +14,5 @@ triggers.forEach(trigger => {
     menu.classList.toggle('open');
   });
 });
+const displayElement = document.getElementById("email.address")
+content.displayElement.textContent = "leah.skogheim@gmail.com"
