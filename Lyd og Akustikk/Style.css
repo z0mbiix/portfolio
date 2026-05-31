@@ -1,0 +1,86 @@
+body {
+    
+    background: linear-gradient(180deg, #b1ec65 40%, #edffdc 0%);
+}
+
+header {
+   background-color: #c4e4a5;
+   text-align: left;
+   padding: 10px;
+   font-size: 10px;
+   color: #204e11;
+   border-bottom-right-radius: 50px;
+   border-color: #a1c181;
+}
+
+
+
+/* Style the topnav */
+nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: #84a067;
+  border-bottom-width: 5px;
+  gap: 30px;
+}
+
+.primary-nav{
+  
+  justify-content: space-between;
+}
+
+.primary-nav a{
+
+  display: flex;
+}
+
+
+/* Style links in topnav */
+nav a {
+  display: block;
+  color: #5e8438;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #a1c181;
+  border-radius: 20px;
+  background-color: #c4e4a5;
+  gap: 30px;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #a1c181;
+  color: #4e6e2e;
+}
+
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+
+.mainContainer {
+  background-color: #edffdc;
+  width: 100%;
+  aspect-ratio: 3/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer{
+  background-color: #edffdc;
+  width: 65%;
+  aspect-ratio: 3/1;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+}
